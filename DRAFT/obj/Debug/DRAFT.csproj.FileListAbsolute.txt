@@ -1,0 +1,15 @@
+C:\Users\Franze\Documents\Franze\Adu\2nd Semester\Computer Programming\Finals\DRAFT\bin\Debug\DRAFT.exe.config
+C:\Users\Franze\Documents\Franze\Adu\2nd Semester\Computer Programming\Finals\DRAFT\bin\Debug\DRAFT.exe
+C:\Users\Franze\Documents\Franze\Adu\2nd Semester\Computer Programming\Finals\DRAFT\bin\Debug\DRAFT.pdb
+C:\Users\Franze\Documents\Franze\Adu\2nd Semester\Computer Programming\Finals\DRAFT\obj\Debug\DRAFT.csproj.AssemblyReference.cache
+C:\Users\Franze\Documents\Franze\Adu\2nd Semester\Computer Programming\Finals\DRAFT\obj\Debug\DRAFT.Properties.Resources.resources
+C:\Users\Franze\Documents\Franze\Adu\2nd Semester\Computer Programming\Finals\DRAFT\obj\Debug\DRAFT.csproj.GenerateResource.cache
+C:\Users\Franze\Documents\Franze\Adu\2nd Semester\Computer Programming\Finals\DRAFT\obj\Debug\DRAFT.csproj.CoreCompileInputs.cache
+C:\Users\Franze\Documents\Franze\Adu\2nd Semester\Computer Programming\Finals\DRAFT\obj\Debug\DRAFT.exe
+C:\Users\Franze\Documents\Franze\Adu\2nd Semester\Computer Programming\Finals\DRAFT\obj\Debug\DRAFT.pdb
+C:\Users\Franze\Documents\Franze\Adu\2nd Semester\Computer Programming\Finals\DRAFT\obj\Debug\DRAFT.Balance.resources
+C:\Users\Franze\Documents\Franze\Adu\2nd Semester\Computer Programming\Finals\DRAFT\obj\Debug\DRAFT.Deposit.resources
+C:\Users\Franze\Documents\Franze\Adu\2nd Semester\Computer Programming\Finals\DRAFT\obj\Debug\DRAFT.LogIn.resources
+C:\Users\Franze\Documents\Franze\Adu\2nd Semester\Computer Programming\Finals\DRAFT\obj\Debug\DRAFT.MainMenu.resources
+C:\Users\Franze\Documents\Franze\Adu\2nd Semester\Computer Programming\Finals\DRAFT\obj\Debug\DRAFT.Withdraw.resources
+C:\Users\Franze\Documents\Franze\Adu\2nd Semester\Computer Programming\Finals\DRAFT\obj\Debug\DRAFT.TransactionHistory.resources
