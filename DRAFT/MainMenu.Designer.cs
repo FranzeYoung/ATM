@@ -41,46 +41,50 @@ namespace DRAFT
             // 
             // balanceinquiry
             // 
+            this.balanceinquiry.BackColor = System.Drawing.Color.LightCoral;
             this.balanceinquiry.Location = new System.Drawing.Point(163, 136);
             this.balanceinquiry.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.balanceinquiry.Name = "balanceinquiry";
             this.balanceinquiry.Size = new System.Drawing.Size(100, 46);
             this.balanceinquiry.TabIndex = 0;
             this.balanceinquiry.Text = "Balance Inquiry";
-            this.balanceinquiry.UseVisualStyleBackColor = true;
+            this.balanceinquiry.UseVisualStyleBackColor = false;
             this.balanceinquiry.Click += new System.EventHandler(this.balanceinquiry_Click);
             // 
             // withdraw
             // 
+            this.withdraw.BackColor = System.Drawing.Color.DarkSalmon;
             this.withdraw.Location = new System.Drawing.Point(163, 205);
             this.withdraw.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.withdraw.Name = "withdraw";
             this.withdraw.Size = new System.Drawing.Size(100, 46);
             this.withdraw.TabIndex = 1;
             this.withdraw.Text = "Withdraw";
-            this.withdraw.UseVisualStyleBackColor = true;
+            this.withdraw.UseVisualStyleBackColor = false;
             this.withdraw.Click += new System.EventHandler(this.withdraw_Click);
             // 
             // deposit
             // 
+            this.deposit.BackColor = System.Drawing.Color.IndianRed;
             this.deposit.Location = new System.Drawing.Point(320, 205);
             this.deposit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.deposit.Name = "deposit";
             this.deposit.Size = new System.Drawing.Size(100, 46);
             this.deposit.TabIndex = 2;
             this.deposit.Text = "Deposit";
-            this.deposit.UseVisualStyleBackColor = true;
+            this.deposit.UseVisualStyleBackColor = false;
             this.deposit.Click += new System.EventHandler(this.deposit_Click);
             // 
             // history
             // 
+            this.history.BackColor = System.Drawing.Color.LightSalmon;
             this.history.Location = new System.Drawing.Point(320, 136);
             this.history.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.history.Name = "history";
             this.history.Size = new System.Drawing.Size(100, 46);
             this.history.TabIndex = 3;
             this.history.Text = "Transaction History";
-            this.history.UseVisualStyleBackColor = true;
+            this.history.UseVisualStyleBackColor = false;
             this.history.Click += new System.EventHandler(this.history_Click);
             // 
             // label1
