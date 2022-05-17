@@ -39,9 +39,10 @@ namespace DRAFT
             // 
             // balance1
             // 
-            this.balance1.Location = new System.Drawing.Point(434, 277);
+            this.balance1.Location = new System.Drawing.Point(326, 225);
+            this.balance1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.balance1.Name = "balance1";
-            this.balance1.Size = new System.Drawing.Size(133, 56);
+            this.balance1.Size = new System.Drawing.Size(100, 46);
             this.balance1.TabIndex = 17;
             this.balance1.Text = "Check Balance";
             this.balance1.UseVisualStyleBackColor = true;
@@ -50,43 +51,48 @@ namespace DRAFT
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(236, 116);
+            this.label2.Location = new System.Drawing.Point(177, 94);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(117, 17);
+            this.label2.Size = new System.Drawing.Size(90, 13);
             this.label2.TabIndex = 16;
             this.label2.Text = "Account Number:";
             // 
             // accountnumber
             // 
             this.accountnumber.AutoSize = true;
-            this.accountnumber.Location = new System.Drawing.Point(383, 116);
+            this.accountnumber.Location = new System.Drawing.Point(287, 94);
+            this.accountnumber.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.accountnumber.Name = "accountnumber";
-            this.accountnumber.Size = new System.Drawing.Size(40, 17);
+            this.accountnumber.Size = new System.Drawing.Size(31, 13);
             this.accountnumber.TabIndex = 15;
             this.accountnumber.Text = "2021";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(316, 224);
+            this.label1.Location = new System.Drawing.Point(237, 182);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(191, 17);
+            this.label1.Size = new System.Drawing.Size(147, 13);
             this.label1.TabIndex = 14;
             this.label1.Text = "Check your account balance.";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(233, 146);
+            this.textBox1.Location = new System.Drawing.Point(175, 119);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(334, 65);
+            this.textBox1.Size = new System.Drawing.Size(252, 54);
             this.textBox1.TabIndex = 13;
             // 
             // return1
             // 
-            this.return1.Location = new System.Drawing.Point(233, 277);
+            this.return1.Location = new System.Drawing.Point(175, 225);
+            this.return1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.return1.Name = "return1";
-            this.return1.Size = new System.Drawing.Size(133, 56);
+            this.return1.Size = new System.Drawing.Size(100, 46);
             this.return1.TabIndex = 18;
             this.return1.Text = "Return";
             this.return1.UseVisualStyleBackColor = true;
@@ -94,15 +100,17 @@ namespace DRAFT
             // 
             // Balance
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.YellowGreen;
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.return1);
             this.Controls.Add(this.balance1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.accountnumber);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Balance";
             this.Text = "Balance";
             this.ResumeLayout(false);

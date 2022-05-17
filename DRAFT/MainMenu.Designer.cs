@@ -41,76 +41,88 @@ namespace DRAFT
             // 
             // balanceinquiry
             // 
-            this.balanceinquiry.Location = new System.Drawing.Point(217, 167);
+            this.balanceinquiry.BackColor = System.Drawing.Color.LightCoral;
+            this.balanceinquiry.Location = new System.Drawing.Point(163, 136);
+            this.balanceinquiry.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.balanceinquiry.Name = "balanceinquiry";
-            this.balanceinquiry.Size = new System.Drawing.Size(133, 56);
+            this.balanceinquiry.Size = new System.Drawing.Size(100, 46);
             this.balanceinquiry.TabIndex = 0;
             this.balanceinquiry.Text = "Balance Inquiry";
-            this.balanceinquiry.UseVisualStyleBackColor = true;
+            this.balanceinquiry.UseVisualStyleBackColor = false;
             this.balanceinquiry.Click += new System.EventHandler(this.balanceinquiry_Click);
             // 
             // withdraw
             // 
-            this.withdraw.Location = new System.Drawing.Point(217, 252);
+            this.withdraw.BackColor = System.Drawing.Color.DarkSalmon;
+            this.withdraw.Location = new System.Drawing.Point(163, 205);
+            this.withdraw.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.withdraw.Name = "withdraw";
-            this.withdraw.Size = new System.Drawing.Size(133, 56);
+            this.withdraw.Size = new System.Drawing.Size(100, 46);
             this.withdraw.TabIndex = 1;
             this.withdraw.Text = "Withdraw";
-            this.withdraw.UseVisualStyleBackColor = true;
+            this.withdraw.UseVisualStyleBackColor = false;
             this.withdraw.Click += new System.EventHandler(this.withdraw_Click);
             // 
             // deposit
             // 
-            this.deposit.Location = new System.Drawing.Point(427, 252);
+            this.deposit.BackColor = System.Drawing.Color.IndianRed;
+            this.deposit.Location = new System.Drawing.Point(320, 205);
+            this.deposit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.deposit.Name = "deposit";
-            this.deposit.Size = new System.Drawing.Size(133, 56);
+            this.deposit.Size = new System.Drawing.Size(100, 46);
             this.deposit.TabIndex = 2;
             this.deposit.Text = "Deposit";
-            this.deposit.UseVisualStyleBackColor = true;
+            this.deposit.UseVisualStyleBackColor = false;
             this.deposit.Click += new System.EventHandler(this.deposit_Click);
             // 
             // history
             // 
-            this.history.Location = new System.Drawing.Point(427, 167);
+            this.history.BackColor = System.Drawing.Color.LightSalmon;
+            this.history.Location = new System.Drawing.Point(320, 136);
+            this.history.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.history.Name = "history";
-            this.history.Size = new System.Drawing.Size(133, 56);
+            this.history.Size = new System.Drawing.Size(100, 46);
             this.history.TabIndex = 3;
             this.history.Text = "Transaction History";
-            this.history.UseVisualStyleBackColor = true;
+            this.history.UseVisualStyleBackColor = false;
             this.history.Click += new System.EventHandler(this.history_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(319, 123);
+            this.label1.Location = new System.Drawing.Point(239, 100);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(138, 17);
+            this.label1.Size = new System.Drawing.Size(105, 13);
             this.label1.TabIndex = 5;
             this.label1.Text = "Select a Transaction";
             // 
             // accountnumber
             // 
             this.accountnumber.AutoSize = true;
-            this.accountnumber.Location = new System.Drawing.Point(351, 72);
+            this.accountnumber.Location = new System.Drawing.Point(263, 58);
+            this.accountnumber.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.accountnumber.Name = "accountnumber";
-            this.accountnumber.Size = new System.Drawing.Size(40, 17);
+            this.accountnumber.Size = new System.Drawing.Size(31, 13);
             this.accountnumber.TabIndex = 6;
             this.accountnumber.Text = "2021";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(218, 72);
+            this.label2.Location = new System.Drawing.Point(164, 58);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(117, 17);
+            this.label2.Size = new System.Drawing.Size(90, 13);
             this.label2.TabIndex = 7;
             this.label2.Text = "Account Number:";
             // 
             // logout
             // 
-            this.logout.Location = new System.Drawing.Point(345, 335);
+            this.logout.Location = new System.Drawing.Point(259, 272);
+            this.logout.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.logout.Name = "logout";
-            this.logout.Size = new System.Drawing.Size(90, 34);
+            this.logout.Size = new System.Drawing.Size(68, 28);
             this.logout.TabIndex = 8;
             this.logout.Text = "Log Out";
             this.logout.UseVisualStyleBackColor = true;
@@ -118,9 +130,10 @@ namespace DRAFT
             // 
             // MainMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.Gainsboro;
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.logout);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.accountnumber);
@@ -129,6 +142,7 @@ namespace DRAFT
             this.Controls.Add(this.deposit);
             this.Controls.Add(this.withdraw);
             this.Controls.Add(this.balanceinquiry);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "MainMenu";
             this.Text = "Form2";
             this.ResumeLayout(false);
